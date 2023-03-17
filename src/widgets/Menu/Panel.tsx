@@ -46,12 +46,12 @@ const Panel: React.FC<Props> = (props) => {
   return (
     <StyledPanel isPushed={isPushed} showMenu={showMenu}>
       <PanelBody {...props} />
-      <AssureKyc target="_blank" rel="noreferrer" href="https://www.assuredefi.io/projects/polyvertex/">
+      {/* <AssureKyc target="_blank" rel="noreferrer" href="https://www.assuredefi.io/projects/polyvertex/">
         <img src="/images/kyc.png" />
       </AssureKyc>
       <RugDoc target="_blank" rel="noreferrer" href="https://rugdoc.io/project/polyvertex/">
         <img src="/images/rugdoc-dark.png" />
-      </RugDoc>
+      </RugDoc> */}
       <PanelFooter {...props} />
     </StyledPanel>
   );
